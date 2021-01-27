@@ -5,6 +5,7 @@
         while (have_posts()) {
             the_post();
             ?>
+            
                 <h1 class="my-5"><?php the_title()?></h1>
                 <div class="row">
                     <div class="col-4 ">
